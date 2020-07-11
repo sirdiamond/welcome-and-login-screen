@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:welcome/screens/signin/sigin.dart';
 
-class WelcomeSreen extends StatelessWidget {
+class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -10,18 +10,21 @@ class WelcomeSreen extends StatelessWidget {
         children: [
           Expanded(
             flex: 8,
-            child: Container(
-              decoration: BoxDecoration(
-                  image: DecorationImage(
-                image: AssetImage('assets/bakery.jpeg'),
-                fit: BoxFit.cover,
-              )),
+            child: Hero(
+              tag: 'massa',
+              child: Container(
+                decoration: BoxDecoration(
+                    image: DecorationImage(
+                  image: AssetImage('assets/bakery.jpeg'),
+                  fit: BoxFit.cover,
+                )),
+              ),
             ),
           ),
           Expanded(
             flex: 4,
             child: Padding(
-              padding: const EdgeInsets.all(21.0),
+              padding: const EdgeInsets.all(30.0),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
