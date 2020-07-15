@@ -10,7 +10,7 @@
 - I've started study Flutter and this is my first UI using the framework.
 - I've used the UI from: [https://github.com/abuanwar072/Login-Screen---Flutter-UI]
 - I've learned the importance of the method Theme.of to not have duplicaded code. (This project not using)
-- From a web background I was trying to add margin/padding every where. hahahah
+- Coming from a web background, I was trying to add margin/padding every where. hahahah
 
 # Demo
 
