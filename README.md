@@ -16,3 +16,6 @@
 
 ![Screenshot 1](auth-ui.gif)
 
+
+# LICENSE
+MIT
