@@ -1,7 +1,7 @@
 # Dark UI - AuthPage
 :cake: UI Simples para 
 
-### [Live Demo](https://luizbatanero-rocketshoes.netlify.com/)
+# Demo
 
 ![Screenshot 1](auth-ui.gif)
 
